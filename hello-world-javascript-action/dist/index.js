@@ -507,10 +507,10 @@ exports.toCommandProperties = toCommandProperties;
 
 /***/ }),
 
-/***/ 17:
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = eval("require")("actions/hithub");
+module.exports = eval("require")("actions/ghithub");
 
 
 /***/ }),
@@ -581,7 +581,7 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 const core = __nccwpck_require__(752)
-const github = __nccwpck_require__(17);
+const github = __nccwpck_require__(997);
 
 try{
 const nameToGreet = core.getInput('who-to-greet');
